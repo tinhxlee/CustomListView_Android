@@ -1,0 +1,17 @@
+1. DES. Chuan ma du lieu. Chay chuong trinh bang cach khoi tao doi tuong DES voi cac thanh phan la cac doi tuong Cipher la cipher va dcipher voi tham so thuat toan la DES. Chon main, chuong trinh se tu sinh khoa cho thuat toan DES. Van ban de ma hoa da duoc khai bao san: This is a classified message! Ban ma duoc chuyen doi sang ma BASE64 gom cac ky tu in duoc va ban giai ma se duoc in ra.  
+
+2. AES. Chuan ma nang cao. Chay chuong trinh bang cach khoi tao doi tuong AES voi thanh phan la cac doi tuong Cipher la cipher va dcipher voi tham so thuat toan la AES. Chon main, chuong trinh se tu sinh khoa cho AES. Van ban de ma hoa da duoc khai bao san: This is a classified message! Ban ma duoc chuyen doi sang ma BASE64 gom cac ky tu in duoc va ban giai ma se duoc in ra.  
+
+3. RSA. Ma khoa cong khai RSA. Chay chuong trinh bang cach khoi tao doi tuong RSA voi cac thanh phan la thuat toan RSA, khoa rieng va khoa cong khai. Chon main, chuong trinh se tu sinh khoa de o thu muc: "C:/keys/private.key". Van ban de ma hoa da duoc khai bao san: "Text to be encrypted". Ban ma va ban giai ma se duoc in ra
+
+4. DSA. Chu ky dien tu voi ban bam SHA. Chu ky dien tu cho file SignatureTest.java. Chu ky duoc chuyen thanh BASE64 va sau do kiem tra chu ky. 
+
+5. SHA512. Bam SHA512. Sinh ra ban bam do dai 512 bit cho moi van ban dau vao.
+
+6. SignatureTest. Sinh ra chu ky RSA voi thuat toan bam MD5. 
+
+7. DES. Ma DES voi van ban nhap vao tu ban phim. Va ban ma, ban giai ma se hien ra tren hop thoai. 
+
+ 
+ 
+  

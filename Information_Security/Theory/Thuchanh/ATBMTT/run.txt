@@ -1,0 +1,67 @@
+1. Chuan ma du lieu DES. Chay DES {}: yeu cau nhap file vao dang txt gom 64 bit 0 hoac 1, nhap file ra dang txt se chua 64 bit 0 hoac 1, nhap khoa gom 16 ky tu hex
+
+{"fileinput.txt", "fileoutput.txt", "0123456789ABCDEF"}
+
+Chang han
+
+{"news.txt", "newsma.txt", "0123456789ABCDEF"}
+
+Chu y: sau do co the chon decrypt() voi file vao la file da ma va file ra se tra lai file ban dau
+
+2. Chuan ma du lieu nang cao AES. Chay AES: chon run se chay block du lieu va key co san. Se in ra khoi du lieu ban dau, khoi ma va khoi giai ma
+
+3. Ma dong, sinh byte gia ngau nhien RC4. Chay: nhap khoa do dai 32 bit (4 byte) gom 4 so tu 0-255. Sau do nhap so byte muon sinh ra la cac byte gia ngau nhien
+
+4. Chuyen String thanh Base64: 3 ky tu 8 bit (3 byte = 24 bit) chuyen doi thanh 4 ky tu Base64. Base64 gom 64 ky tu gom 26 chu thuong, 26 chu hoa, 10 chu so, dau + va dau /
+64 ky tu nay duoc ma hoa dung 6 bit. Nhu vay 3 ky tu ASCII duoc chuyen doi thanh 4 ky tu Base64. 
+
+5. TestBigInteger. Phep toan tren so nguyen lon. Lop BigInteger. Nhap 2 so nguyen lon, se thuc hien cac phep toan: +, *, /, %, tinh nghich dao so nay theo mod so kia, uoc chung lon nhat gcd cua 2 so. 
+
+6.ModExp. Luy thua theo modulo, cai dat 
+
+tinh de qui tuan tu 
+      a mu n mod m = 1, neu n = 0
+      a mu n mod m =  a.(a mu (n-1) mod m) mod m 
+
+va tinh de qui nhanh
+  a mu n mod m = 1, neu n = 0
+  a mu n mod m = 1, neu n = 1  
+  a mu n mod m = ((a mu n%2 mod m) mu 2) mod m,  
+                                     neu n = chan
+  a mu n mod m = (a.((a mu (n-1)%2 mod m) mu 2)) mod m
+                                     neu n = le  
+
+7. ModStuff - Tinh nghich dao theo Modulo. Cai dat thuat toan Extended Euclide.
+
+
+8. MilnerRabin - kiem tra so nguyen to. Cai dat thuat toan MinerRabin
+
+9. DisLog. Cai dat moi luy thua cua mot co so theo modulo de tinh logarit roi rac 
+
+10. Primitiveroot. Nhap mot so trong khoang tu 2 den 1000. Kiem tra so do xem co la so nguyen to khong. Neu co, tinh toan kiem tra va liet ke moi can nguyen thuy cua so do
+
+11. RSABigInt. Ma RSA, nhap so p, q gan dung. Nhap ma e cho den khi e la nguyen to cung nhau voi phi(n),
+nhap so lon lam so dau vao, cho ket qua ma hoa la so lon va giai ma tro ve so ban dau
+
+12. RSA2BigInt. Ma RSA, nhap so p, q gan dung. Nhap ma e cho den khi e la nguyen to cung nhau voi phi(n),
+nhap tu gom nhieu nhat 8 chu hoa lam dau vao, cho ket qua ma hoa la so lon va giai ma tro ve tu ban dau   
+
+13. DiffieHellmanBigInt. Cai dat thuat toan trao doi khoa Diffie-Hellman: nhap so p, tim so nguyen to p' gan do, Chon mot so q giua 2 va p-1. NSD A nhap khoa rieng, NSD A gui cho B so a = q mu khoa rieng cua minh mod p'.  
+NSD B nhap khoa rieng, va B gui cho A so b = q mu khoa rieng cua minh mod p'. 
+A lay so b mu khoa rieng cua minh mod so nguyen to p'. 
+B lay so a mu khoa rieng cua minh theo mod p'. 
+Hai nguoi nhan duoc ket qua nhu nhau do la khoa K dung chung giua A va B. 
+
+14. DSA. Chu ky dien tu DSA. Nhap so p, chon so nguyen to gan voi p. Chuong trinh tim so q va khoa rieng x cua A, so ngau nhien k.
+Tinh khoa cong khai y, cho gia tri ban bam van ban.
+Tinh chu ky (r,s).
+Kiem tra chu ky: tinh w, u1, u2, v. Ket luan.
+
+15. Elgamal. Cai dat thuat toan ma cong khai Elgamal. Nhap so gan dung cua so nguyen to, tim so nguyen to p. Tim q (can nguyen thuy cua p) va sinh mot so ngau nhien lam khoa rieng b. Nhap thong diep la mot so nho hon p va sinh ra ban ma (c1,c2). Giai ma tim lai thong diep.
+ 
+
+
+
+ 
+
+
